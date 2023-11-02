@@ -23,8 +23,16 @@ wget https://raw.githubusercontent.com/mvscode/frps-onekey/master/install-frps.s
 chmod 700 ./install-frps.sh
 ./install-frps.sh install
 ```
-
-
+#### 设置后台运行
+```Bash
+nohup ./frps -c frps.ini >/dev/null 2>&1 &
+```
+### FRP常用命令
+```Bash
+开启FRP：frps start
+停止FRP：frps stop
+重启FRP：frps restart
+```
 ### Uninstall（卸载）
 ```Bash
 ./install-frps.sh uninstall
