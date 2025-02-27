@@ -21,7 +21,7 @@ str_program_dir="/usr/local/${program_name}"
 program_init="/etc/init.d/${program_name}"
 program_config_file="frps.ini"
 ver_file="/tmp/.frp_ver.sh"
-str_install_shell="https://raw.githubusercontent.com/wangxiaoke122/frps-onekey/master/install-frpsv0.58.0.sh"
+str_install_shell="https://raw.githubusercontent.com/wangxiaoke122/frps-onekey/master/install-frps_v0.58.0.sh"
 shell_update(){
     fun_clangcn "clear"
     echo "Check updates for shell..."
